@@ -316,11 +316,11 @@ h1{
   }
 
   .side-content-wrapper {
-    border-radius: 50px;
+    border-radius: 30px;
     padding: 10px 17px;
     background-color: #e6e6e6;
     width: 25vw;
-    height: 15vw;
+    height: 17vw;
     margin: 0 auto;
   }
 
@@ -345,7 +345,13 @@ h1{
   .side-subtitle p {
     font-size: .8vw;
     color: #3e7a56;
-    line-height: 0;
+    line-height: 0px;
     text-align: right;
   }
+
+  .word {
+    margin-top: -10px;
+  }
+
+  
 }
