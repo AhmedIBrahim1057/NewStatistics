@@ -58,9 +58,14 @@ h1{
   max-width: 150px;
   text-align: center;
   position: absolute;
-  top: 10vw;
-  left: 19vw;
-  /* transform: translate(-60px, -160px); */
+  top: 0%;
+  left: 40%;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  right: 40%;
+  transform: translate(0px, -100px);
 }
 
 .labels {
@@ -325,5 +330,18 @@ h1{
     margin-top: -10px;
   }
 
+  .chart-content {
+    max-width: 150px;
+    text-align: center;
+    position: absolute;
+    top: 0%;
+    left: 40%;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    right: 40%;
+    transform: translate(0px, -30%);
+  }
   
 }
