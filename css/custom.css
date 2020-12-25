@@ -395,6 +395,15 @@ h1{
   .chart-content h1 {
     line-height: .8;
   }
+
+  .labels {
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    margin-right: 20px;
+    justify-content: center;
+    align-items: center;
+  }
   
 }
 
