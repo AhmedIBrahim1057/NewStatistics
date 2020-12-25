@@ -1,0 +1,279 @@
+/*-------------------------------- General Styles -------------------------------------------*/
+
+body{
+  padding: 0;
+  margin: 0;
+  direction: rtl;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  font-family: 'Cairo', sans-serif;
+  background-color: #f7f7f7;
+}
+
+h1{
+  font-size: 4vw;
+  font-family: 'Archivo', sans-serif;
+  color: #4d4d4d;
+}
+
+.separator {
+  width: 100%;
+  height: 2px;
+  background-color: #e6e6e69d;
+}
+
+/*------------------------------------------------- logo ---------------------------------------------*/
+
+.logo {
+  width: 20%;
+}
+
+/*------------------------------------------------- chart ---------------------------------------------*/
+
+.chart-content{
+  padding-top: 32%;
+}
+
+.chart-container .box {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.chart-container .box h2 {
+  text-align: center;
+  color: #000;
+}
+
+.chart-container .box h4 {
+  font-size: 1.4vw;
+  color: #4d4d4d;
+  
+}
+
+.chart-container .box h6 {
+  font-size: .8vw;
+  color: #4d4d4d;
+}
+
+.chart-container .box .chart {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 40px;
+  line-height: 160px;
+  height: 160px;
+  color: #000;
+}
+
+.chart-container .box canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  width: 100%;
+}
+
+
+
+.labels {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.labels .win {
+  padding: 20px;
+}
+
+.labels .lose {
+  padding: 20px;
+}
+
+.labels span {
+  color: #808080 ;
+}
+
+.clearfix {
+  height: 30vw;
+}
+
+/*------------------------------------------------- side content ---------------------------------------------*/
+
+.side-content {
+  border-right: 2.5px solid #e6e6e69d;
+}
+
+
+.side-content-wrapper {
+  border-radius: 50px;
+  padding: 20px 30px;
+  background-color: #e6e6e6;
+  width: 15vw;
+  height: 8vw;
+  margin: 0 auto;
+}
+
+.side-subtitle p {
+  font-size: .6vw;
+  color: #3e7a56;
+  line-height: 0;
+  text-align: right;
+}
+
+.side-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.side-statistics {
+  width: 50%;
+}
+
+.side-statistics p {
+  margin-top: -15px;
+  font-size: .6vw;
+  color: #3e7a56;
+}
+
+.side-statistics h2 {
+  
+  font-size: 3vw;
+  font-family: 'Archivo', sans-serif;
+}
+
+.side-title {
+  width: 50%;
+}
+
+.side-title h6 {
+  color: #3e7a56;
+  font-size: 1vw;
+  text-align: right;
+}
+
+/*------------------------------------------------- labels---------------------------------------------*/
+
+.lose {
+  margin-left: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.win {
+  margin-right: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lose-color{
+  padding: 8px 20px;
+  height: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  background-color: #ccc;
+  margin-left: 10px;
+}
+
+.win-color{
+  padding: 8px 20px;
+  height: 10px;
+  border: 1px solid #3e7a56;
+  border-radius: 20px;
+  background-color: #3e7a56;
+  margin-left: 10px;
+}
+
+
+@media(max-width: 1900px ){
+  h1{
+    font-size: 5.7vw;
+    font-family: 'Archivo', sans-serif;
+    color: #4d4d4d;
+  }
+  h4 {
+    font-size: 1.8vw;
+    color: #4d4d4d;
+    
+  }
+  h6 {
+    font-size: 1.2vw;
+    color: #4d4d4d;
+  }
+  .chart-content{
+    padding-top: 29%;
+  
+  }
+}
+
+
+@media(max-width: 700px ) {
+  .lose {
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .win {
+    margin-right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .lose-color{
+    padding: 5px 15px;
+    height: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background-color: #ccc;
+    margin-left: 10px;
+  }
+  
+  .win-color{
+    padding: 5px 15px;
+    height: 10px;
+    border: 1px solid #3e7a56;
+    border-radius: 20px;
+    background-color: #3e7a56;
+    margin-left: 10px;
+  }
+
+  .labels span {
+    color: #808080 ;
+    font-size: 3vw;
+  }
+
+  .labels .lose {
+    padding: 5px;
+  }
+
+  .clearfix {
+    height: 40vw;
+  }
+
+  .side-content-wrapper {
+    border-radius: 50px;
+    padding: 5px 10px;
+    background-color: #e6e6e6;
+    width: 15vw;
+    height: 8vw;
+    margin: 0 auto;
+  }
+}
+
+
+@media (min-width: 1200px){
+
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1440px;
+}
+
+}
