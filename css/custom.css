@@ -408,6 +408,19 @@ h1{
 }
 
 
+@media(max-width: 830px ) {
+  
+
+  .side-content-wrapper {
+    border-radius: 30px;
+    padding: 10px 17px;
+    background-color: #e6e6e6;
+    width: 22vw;
+    height: 14vw;
+    margin: 0 auto;
+  }
+}
+
 @media(max-width: 400px ) {
   .chart-content {
     max-width: 150px;
