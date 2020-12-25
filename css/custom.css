@@ -33,51 +33,35 @@ h1{
 
 /*------------------------------------------------- chart ---------------------------------------------*/
 
-.chart-content{
-  padding-top: 32%;
-}
-
-.chart-container .box {
+.circle-progress {
   width: 80%;
+  height: auto;
   margin: 0 auto;
 }
 
-.chart-container .box h2 {
+.circle-progress-circle {
+  stroke: #cccccc;
+    stroke-width: 16;
+}
+
+.circle-progress-value {
+  stroke: #3e7a56;
+  stroke-width: 16;
+  stroke-linecap: round;
+}
+
+.circle-progress-text {
+  display: none;
+}
+
+.chart-content {
+  max-width: 150px;
   text-align: center;
-  color: #000;
-}
-
-.chart-container .box h4 {
-  font-size: 1.4vw;
-  color: #4d4d4d;
-  
-}
-
-.chart-container .box h6 {
-  font-size: .8vw;
-  color: #4d4d4d;
-}
-
-.chart-container .box .chart {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  font-size: 40px;
-  line-height: 160px;
-  height: 160px;
-  color: #000;
-}
-
-.chart-container .box canvas {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  width: 100%;
+    top: 0;
+    left: 0;
+    transform: translate(230%, 120%);
 }
-
-
 
 .labels {
   width: 100%;
@@ -206,14 +190,7 @@ h1{
     font-size: 1.2vw;
     color: #4d4d4d;
   }
-  .chart-content{
-    padding-top: 29%;
-  
-  }
 }
-
-
-
 
 @media (max-width: 1500px){
 
@@ -256,13 +233,11 @@ h1{
 
 @media (min-width: 1200px){
 
-.container, .container-lg, .container-md, .container-sm, .container-xl {
-    max-width: 1440px;
-}
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+      max-width: 1440px;
+  }
 
 }
-
-
 
 @media(max-width: 700px ) {
 
@@ -351,6 +326,15 @@ h1{
 
   .word {
     margin-top: -10px;
+  }
+
+  .chart-content {
+    max-width: 150px;
+    text-align: center;
+    position: absolute;
+      top: 0;
+      left: 0;
+      transform: translate(200%, 70%);
   }
 
   
